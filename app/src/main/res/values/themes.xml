@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ClubDelPadrinoClient" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+        <item name="android:statusBarColor">@color/dorado</item>
+    </style>
+
+    <style name="Theme.ClubDelPadrinoClient" parent="Base.Theme.ClubDelPadrinoClient" />
+
+    <style name="Theme.ClubDelPadrinoClient.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ClubDelPadrinoClient.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ClubDelPadrinoClient.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
